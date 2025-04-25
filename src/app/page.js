@@ -33,8 +33,8 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-200 to-blue-500 flex flex-col items-center justify-center px-4">
-      <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-md text-center">
+    <div className="min-h-screen bg-gradient-to-br from-gray-200 to-blue-500 flex flex-col items-center justify-center px-4">
+      <div className="bg-black shadow-lg rounded-2xl p-6 w-full max-w-md text-center">
         <h1 className="text-3xl font-bold mb-4">🌤️ Weather App</h1>
         <div className="flex items-center gap-2">
           <input
@@ -50,7 +50,7 @@ export default function Home() {
           />
           <button
             onClick={handleSearch}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition"
+            className="bg-white-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition"
           >
             Search
           </button>
